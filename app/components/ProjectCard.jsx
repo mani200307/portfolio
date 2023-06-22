@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import moto from '../assets/motofix.png';
 import github from '../assets/github.png';
 import live from '../assets/live.png';
 import Link from 'next/link';

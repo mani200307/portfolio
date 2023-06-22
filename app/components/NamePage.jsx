@@ -9,7 +9,7 @@ const NamePage = () => {
     const about = "I'm a full stack web developer and an open source contributor";
 
     return (
-        <div id='HomePage' className='-mt-10 flex flex-col gap-10 justify-center items-center bg-base-300 h-screen w-screen'>
+        <div id='HomePage' className="bg-gradient-to-b from-base-200 to-base-100 -mt-10 flex flex-col gap-10 justify-center items-center h-screen w-screen">
             <h1 className='text-3xl font-medium'>{name}</h1>
             <h1 className='w-80 text-center text-xl'>{about}</h1>
             <Link
