@@ -32,7 +32,7 @@ const Header = () => {
 
   return (
     <div className='sticky top-0'>
-      <div className="navbar bg-base-100">
+      <div className="navbar w-screen bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -43,7 +43,7 @@ const Header = () => {
               <li><Link href='/'>About</Link></li>
             </ul>
           </div>
-          <Link href='/' className="normal-case text-2xl ml-4"><h1>Manikandan T</h1></Link>
+          <Link href='/' className="xs:text-xl normal-case text-2xl w-52 ml-4"><h1>Manikandan T</h1></Link>
         </div>
         <div className='navbar-end mr-2 lg:hidden'>
           <label className="swap swap-rotate">

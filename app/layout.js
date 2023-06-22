@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className='w-screen overflow-x-hidden'>
       <body>
         <Header />
         {children}

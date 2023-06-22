@@ -3,9 +3,9 @@ import ProjectCard from './ProjectCard'
 
 const ProjectPage = () => {
     return (
-        <div className='flex flex-col gap-5 items-center bg-base-300 h-full'>
-            <h1 className='text-3xl mt-4 justify-start font-medium'>Projects</h1>
-            <div className='flex mb-5 p-2'>
+        <div className='h-full'>
+            <div className='m-5 bg-base-100 flex flex-col gap-5 items-center'>
+                <h1 className='text-3xl justify-start font-semibold'>Projects</h1>
                 <ProjectCard />
             </div>
         </div>

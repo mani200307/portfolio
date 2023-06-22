@@ -5,9 +5,10 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>
+    <div className='w-screen'>
       <NamePage />
       <AboutPage />
+      <div className='divider invisible'></div>
       <ProjectPage />
     </div>
   )
