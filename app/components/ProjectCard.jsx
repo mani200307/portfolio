@@ -42,9 +42,9 @@ const ProjectCard = () => {
     ];
 
     return (
-        <div className='w-screen flex flex-col lg:flex-row lg:gap-0 mt-5 xs:gap-10'>
+        <div className='w-screen flex flex-col lg:flex-row lg:gap-0 mt-5 mr-5 p-5 xs:gap-10'>
             {projects.map((project, index) => (
-                <div key={index} className='items-center flex flex-col gap-5 mx-5 bg-base-200 cursor-context-menu rounded-lg shadow-xl p-4'>
+                <div key={index} className='items-center flex flex-col lg:w-1/4 m-3 w-full gap-5 bg-base-200 cursor-context-menu rounded-lg shadow-xl p-4'>
                     <h1 className='text-center font-medium text-2xl'>{project.title}</h1>
                     <p className='text-center'>{project.desc}</p>
                     <div className='flex p-4 justify-center items-center flex-wrap gap-2 w-full'>
