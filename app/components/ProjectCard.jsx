@@ -23,20 +23,20 @@ const ProjectCard = () => {
             tech: ['Next.js', 'Supabase', 'TailwindCSS', 'Zustand'],
         },
         {
+            github: 'https://github.com/mani200307/HotelBooking',
+            live: 'https://splendid-tanuki-7fd21f.netlify.app/',
+            title: 'Hotel Booking App',
+            desc:
+                'This website helps a user to book a hotel. It is a MERN project. Stripe payment gateway is also included with this.',
+            tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js'],
+        },
+        {
             github: 'https://github.com/mani200307/Depression-Detection-using-Social-media-texts',
             live: '',
             title: 'Depression Detection ML',
             desc:
                 'It is a machine learning project that helps a user to detect whether a user is depressed or not. It is predicted using Machine learning classifiers. It is deployed using Flask in Python.',
             tech: ['Python', 'Flask'],
-        },
-        {
-            github: 'https://github.com/mani200307/BookingApp',
-            live: '',
-            title: 'Hotel Booking App',
-            desc:
-                'This website helps a user to book a hotel. It is a MERN project. Stripe payment gateway is also included with this.',
-            tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js'],
         },
     ];
 
